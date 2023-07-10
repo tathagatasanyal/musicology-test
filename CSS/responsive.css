@@ -1,0 +1,67 @@
+@media (max-width: 1030px) {
+
+}
+
+@media (max-width: 768px){
+    .navbar .navbar-brand img{
+        width: 100%;    
+        
+
+    }
+    .navbar .navbar-toggler{
+        margin-right: 50px;
+       }
+
+     .hero2 .hero2-banner{
+        background-position: 65% center;
+        height: 600px;
+        width: 100%;
+     }  
+     .hero2 .hero2-banner .overlay .banner-inner p{
+        font-size: 16px;
+        margin-top: -200px;
+     }
+}
+
+.Banner{
+    background-position: center 65%;
+}
+
+.Banner .content{
+    width: 100%;
+}
+
+@media (max-width: 414px){
+    .flexbox{
+        height: 100px;
+    }   
+}
+@media (max-width: 375px){
+
+    .navbar .navbar-brand img{
+        width: 60%;
+        margin-left: 20px;
+    }
+   .navbar .navbar-toggler{
+
+   }
+   .Banner{
+    background-position: center 55%;
+   }
+   .Banner .content{
+    margin-left: 10px;
+   }
+   .Banner .content h2{
+    font-size: 3.5rem;
+   }
+   .Banner .content p{
+    font-size: 1rem;
+   }
+
+   .Banner .content button{
+    width: 50%;
+   }
+
+
+
+}
